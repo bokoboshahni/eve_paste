@@ -1,0 +1,12 @@
+/.bundle/
+/.yardoc
+/_yardoc/
+/coverage/
+/doc/
+/pkg/
+/sig/
+/spec/reports/
+/tmp/
+/vendor/bundle/
+.rspec_status
+tags

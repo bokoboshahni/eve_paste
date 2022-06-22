@@ -1,0 +1,15 @@
+AllCops:
+  NewCops: enable
+  TargetRubyVersion: 2.7
+  Exclude:
+    - .bundle/**/*
+    - bin/*
+    - tmp/**/*
+    - vendor/bundle/**/*
+
+Layout/LineLength:
+  Max: 120
+
+Lint/EmptyBlock:
+  Exclude:
+    - spec/**/*_spec.rb
